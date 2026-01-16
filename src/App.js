@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { GraduationCap, Building2, BookOpen, Calendar, ArrowRight, Menu, X, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
-
+import { GraduationCap, Building2, BookOpen, ArrowRight, Menu, X, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
 
 export default function UniversityWebsite() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [selectedDate, setSelectedDate] = useState(15);
 
 const scrollToSection = (id) => {
   const section = document.getElementById(id);
