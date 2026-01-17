@@ -105,7 +105,7 @@ const scrollToSection = (id) => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/resources/gedung_umuk.jpeg')",
+            backgroundImage: "url('/resources/gedung_umuka.webp')",
             filter: "brightness(0.5)"
           }}
         />
@@ -113,7 +113,7 @@ const scrollToSection = (id) => {
           <div className="mb-6">
             <div className="w-24 h-24 mx-auto flex items-center justify-center mb-4">
                <img 
-                  src="/resources/bgremov.jpeg"
+                  src="/resources/bgremov.webp"
                   alt="Logo"
                   className="w-100 h-100 object-contain" // Logo juga dibuat lebih kecil
                 />
