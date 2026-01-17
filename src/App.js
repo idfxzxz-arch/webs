@@ -105,7 +105,7 @@ const scrollToSection = (id) => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/resources/gedung_umuka.png')",
+            backgroundImage: "url('/resources/gedung_umuk.jpeg')",
             filter: "brightness(0.5)"
           }}
         />
