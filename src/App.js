@@ -265,7 +265,7 @@ const scrollToSection = (id) => {
           </div>
 
           <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-            © Donanemun 2021 2022 | IMO YouTube
+            © TEKKOM 2025-2026 | idkxz
           </div>
         </div>
       </footer>
