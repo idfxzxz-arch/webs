@@ -113,7 +113,7 @@ const scrollToSection = (id) => {
           <div className="mb-6">
             <div className="w-24 h-24 mx-auto flex items-center justify-center mb-4">
                <img 
-                  src="/resources/bgremov.png"
+                  src="/resources/bgremov.jpeg"
                   alt="Logo"
                   className="w-100 h-100 object-contain" // Logo juga dibuat lebih kecil
                 />
