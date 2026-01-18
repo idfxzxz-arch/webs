@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { GraduationCap, Building2, BookOpen, ArrowRight, Menu, X, Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { GraduationCap, Building2, BookOpen, ArrowRight, Menu, 
+         X, Facebook, Twitter, Instagram, Youtube, Linkedin, Hand } 
+from 'lucide-react';
 
 export default function UniversityWebsite() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -41,7 +43,7 @@ const scrollToSection = (id) => {
   const newsItems = [
     {
       category: "AUG | TODAY",
-      title: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euis mod.",
+      title: "Prestasi Mahasiswa TEKKOM di Kompetisi Robotika Nasional.",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&h=400&fit=crop"
     },
     {
@@ -50,9 +52,9 @@ const scrollToSection = (id) => {
       image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop"
     },
     {
-      category: "AUG | TODAY",
-      title: "Shownu's So Hot What Do We Do For This?",
-      image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&h=400&fit=crop"
+      category: "NOV | TODAY",
+      title: "juara 3 lomba video reels",
+      image: "/resources/news3.webp"
     }
   ];
 
@@ -103,7 +105,7 @@ const scrollToSection = (id) => {
       {/* Hero Section */}
       <div id="home" className="relative h-[700px] scroll-smooth">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center bg-gradient-to-b from-black/30 via-black/50 to-black/70"
           style={{
             backgroundImage: "url('/resources/gedung_umuka.webp')",
             filter: "brightness(0.5)"
@@ -111,14 +113,14 @@ const scrollToSection = (id) => {
         />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
           <div className="mb-6">
-            <div className="w-24 h-24 mx-auto flex items-center justify-center mb-4">
+            <div className="w-32 h-32 mx-auto flex items-center justify-center mb-4">
                <img 
                   src="/resources/bgremov.webp"
                   alt="Logo"
                   className="w-100 h-100 object-contain" // Logo juga dibuat lebih kecil
                 />
             </div>
-            <div className="text-sm tracking-widest mb-2">isi sendiri</div>
+            <div className="text-sm tracking-widest mb-2">Cerdas Membangun Peradaban Utama di Era Digital</div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Computer Engineering</h1>
           <p className="text-lg text-gray-300 tracking-wider">The Character of Success</p>
@@ -133,7 +135,7 @@ const scrollToSection = (id) => {
             <h3 className="text-xl font-bold mb-2 flex items-center">
               SCHOLARSHIP <span className="ml-2 text-xs">●</span>
             </h3>
-            <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam.</p>
+            <p className="text-gray-400 text-sm">Beasiswa Prestasi & Afirmasi untuk Mahasiswa Berprestasi.</p>
           </div>
           
           <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition cursor-pointer">
@@ -141,7 +143,7 @@ const scrollToSection = (id) => {
             <h3 className="text-xl font-bold mb-2 flex items-center">
               OUR CAMPUS <span className="ml-2 text-xs">●</span>
             </h3>
-            <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam.</p>
+            <p className="text-gray-400 text-sm">Kampus Strategis di Jl. Raya Solo-Tawangmangu KM 12, Karanganyar.</p>
           </div>
           
           <div className="bg-gray-900 p-8 rounded-lg hover:bg-gray-800 transition cursor-pointer">
@@ -149,7 +151,7 @@ const scrollToSection = (id) => {
             <h3 className="text-xl font-bold mb-2 flex items-center">
               PROGRAM <span className="ml-2 text-xs">●</span>
             </h3>
-            <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod magna aliquam.</p>
+            <p className="text-gray-400 text-sm">Fokus Embedded System, Robotika, Smart Device & Mobile Robotic.</p>
           </div>
         </div>
       </div>
@@ -165,7 +167,7 @@ const scrollToSection = (id) => {
           </div>
           <div className="relative h-96 rounded-lg overflow-hidden">
             <img 
-              src="https://cdn.the-scientist.com/assets/image/48049/graduate-student-1800x720-x.webp"
+              src="/resources/about.webp"
               alt="Graduate"
               className="w-full h-full object-cover"
             />
@@ -216,7 +218,7 @@ const scrollToSection = (id) => {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="text-xs">
-                  <div className="font-bold">Duke University</div>
+                  <div className="font-bold">UMUKA</div>
                   <div className="text-gray-400">The Character</div>
                 </div>
               </div>
@@ -265,7 +267,7 @@ const scrollToSection = (id) => {
           </div>
 
           <div className="border-t border-gray-800 pt-6 text-center text-sm text-gray-500">
-            © TEKKOM 2025-2026 | idkxz
+            © Program Studi Teknik Komputer UMUKA 2025-2026 | Demo Version
           </div>
         </div>
       </footer>
